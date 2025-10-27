@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME ='anitavrn/mobileApp'
+    IMAGE_NAME ='anitavrn/mobileapp'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
 
